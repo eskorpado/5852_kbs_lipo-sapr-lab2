@@ -1,0 +1,13 @@
+| #define PACKAGE_NAME "MySQL Server"
+| #define PACKAGE_VERSION "5.1.54"
+| configure:21102: gcc -o conftest -O3 -DBIG_JOINS=1 -fPIC -fno-strict-aliasing    -Wl,-Bsymbolic-functions conftest.c  >&5
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_NAME "MySQL Server"
+| main.c :90:28: error: ac_nonexistent.h: No such file or directory
+| #define PACKAGE_VERSION "5.1.54"
+| #define STDC_HEADERS 1
+| conftest.cpp:90:28: error: ac_nonexistent.h: No such file or directory
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
